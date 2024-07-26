@@ -1,2 +1,2 @@
-# Web-Devlopment
-This is coursera's Web Devlopement course
+# Web-Devlopement
+This is used to provide the Code for my front end projects. 
