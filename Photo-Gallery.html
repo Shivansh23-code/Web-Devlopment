@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo-Gallery</title>
+    <link rel="stylesheet" href="Gallery-style.css">
+</head>
+<body>
+    <div class="gallery-container">
+        <div class="gallery-grid">
+            <!-- Thumbnails -->
+            <img src="images/Product1.png" alt="TeaTree Shampoo"
+            class="gallery-img" onclick="openLightbox(); setCurenntImage(1)">
+            <img src="images/Product.png" alt="Perfume by Purity"
+            class="gallery-img" onclick="openLightbox(); setCurrentImage(2)">
+            <img src="images/nature.png" alt="Beautiful Destination"
+            class="gallery-img" onclick="openLightbox(); setCurrentImage(3)">
+            <img src="images/burger.png" alt="Burger"
+            class="gallery-img" onclick="openLightbox(); setCurrentImage(4)">
+            
+            <!-- Add more thumbnails here -->
+        </div>
+    </div>
+
+    <!-- The Modal/lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div id="caption"></div>
+    </div>
+
+
+
+    <script src="Gallery.js"></script>
+</body>
+</html>

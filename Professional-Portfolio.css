@@ -1,0 +1,84 @@
+/* Basic Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+header, footer {
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Optional : Add a background image to the header */
+/* Adding Image */
+
+header{
+    background-image: url(images/gradient-wallpaper.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1, h2 {
+    color : #333
+}
+
+#projects {
+    margin: 20px 0;
+}
+
+.project-entry {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 5px solid #333;
+}
+
+/* Multimedia Styles */
+video, audio {
+    width: 100%;
+    margin-top: 15px;
+}
+
+#contact form {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    display: inline-block;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+    /* Rsponsive Styles */
+}
